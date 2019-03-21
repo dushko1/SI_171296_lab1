@@ -1,0 +1,24 @@
+1 mkdir lab1
+  cd lab1
+  git init 
+  git add l1.txt
+  git commit -m "Initial commit"
+  git add l1.txt
+  git commit -m "modify l1.txt"
+  git remote add origin https://github.com/dushko1/SI_171296_lab1.git
+  git push -u origin master
+  git commit -- li.txt
+  git branch logging
+  git checkout logging
+  git add log.txt
+  git log
+  git commit -m "commit na log.txt"
+  git push -u origin logging
+  git checkout master
+  git merge logging
+  git branch allcomands
+  git checkout allcomands
+  git push -u origin allcomands
+  git rebase master
+  
+  
