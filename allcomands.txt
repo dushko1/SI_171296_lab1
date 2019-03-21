@@ -18,6 +18,8 @@
   git merge logging
   git branch allcomands
   git checkout allcomands
+  git add allcomands.txt
+  git commit -m "commit na allcomands.txt"
   git push -u origin allcomands
   git rebase master
   
